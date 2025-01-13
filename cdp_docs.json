@@ -1,0 +1,58 @@
+[
+    {
+        "platform": "Segment",
+        "url": "https://segment.com/docs/?ref=nav",
+        "content": [
+            {
+                "question": "How do I create an account on Segment?",
+                "answer": "To create an account on Segment, visit https://segment.com, click on 'Sign Up', enter your account details, and follow the on-screen instructions."
+            },
+            {
+                "question": "What is Segment used for?",
+                "answer": "Segment is a customer data platform that simplifies data collection and integration by providing a single API to capture user interactions across platforms."
+            }
+        ]
+    },
+    {
+        "platform": "mParticle",
+        "url": "https://docs.mparticle.com/",
+        "content": [
+            {
+                "question": "How do I integrate mParticle into an app?",
+                "answer": "To integrate mParticle, follow the documentation at https://docs.mparticle.com/developers/sdk/ to download and install the SDK and configure your account."
+            },
+            {
+                "question": "What features does mParticle offer?",
+                "answer": "mParticle provides data integration, user identity management, and orchestration for personalized customer experiences."
+            }
+        ]
+    },
+    {
+        "platform": "Lytics",
+        "url": "https://docs.lytics.com/",
+        "content": [
+            {
+                "question": "How do I create an account on Lytics?",
+                "answer": "To create an account on Lytics, contact their sales team at https://www.lytics.com/contact for account setup and access."
+            },
+            {
+                "question": "What is the purpose of Lytics?",
+                "answer": "Lytics is a customer data platform that uses machine learning to generate audience-based insights for personalized marketing."
+            }
+        ]
+    },
+    {
+        "platform": "Zeotap",
+        "url": "https://docs.zeotap.com/home/en-us/",
+        "content": [
+            {
+                "question": "How do I set up Zeotap?",
+                "answer": "To set up Zeotap, visit https://docs.zeotap.com/home/en-us/ and follow the onboarding documentation or contact support for assistance."
+            },
+            {
+                "question": "What does Zeotap offer?",
+                "answer": "Zeotap provides customer intelligence solutions for first-party data integration, identity resolution, and marketing insights."
+            }
+        ]
+    }
+]
