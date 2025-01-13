@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Support Bot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>FAQ Support Bot</h1>
+        <div class="chat-box">
+            <textarea id="question" placeholder="Type your question here..."></textarea>
+            <select id="platform">
+                <option value="">Select Platform</option>
+                <option value="Segment">Segment</option>
+                <option value="mParticle">mParticle</option>
+                <option value="Lytics">Lytics</option>
+                <option value="Zeotap">Zeotap</option>
+            </select>
+            <button onclick="askQuestion()">Ask</button>
+        </div>
+        <div id="response" class="response-box"></div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
