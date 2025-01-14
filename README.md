@@ -1,85 +1,101 @@
-# Support Agent Chatbot for CDPs
+# A Support Agent Chatbot for CDP "How-to" Questions
 
-![Screenshot (101)](https://github.com/user-attachments/assets/3a43e86e-f8a1-4b41-9187-d8d9af4523e1)
+This repository contains the implementation of a Support Agent Chatbot designed to assist users in navigating common "How-to" questions related to a CDP (Customer Data Platform). The chatbot provides relevant, quick, and concise answers, enhancing user experience and operational efficiency.
 
-### Objective:
-The goal of this project is to develop a chatbot capable of answering "how-to" questions related to four Customer Data Platforms (CDPs): **Segment**, **mParticle**, **Lytics**, and **Zeotap**. The chatbot should extract relevant information from the official documentation of these platforms and provide clear, actionable guidance to users.
-
----
-
-### Data Sources:
-The chatbot utilizes the following official documentation for retrieving information:
-- **Segment Documentation:** [Segment Docs](https://segment.com/docs/?ref=nav)
-- **mParticle Documentation:** [mParticle Docs](https://docs.mparticle.com/)
-- **Lytics Documentation:** [Lytics Docs](https://docs.lytics.com/)
-- **Zeotap Documentation:** [Zeotap Docs](https://docs.zeotap.com/home/en-us/)
+![Screenshot (101)](https://github.com/user-attachments/assets/1a03c155-fb91-4109-98af-b4bd0c9559d5)
 
 ---
 
-### Core Functionalities:
-
-#### 1. Answer "How-to" Questions:
-- The chatbot can understand and respond to user questions about performing tasks or using features in the CDPs.
-- Example questions:
-  - "How do I set up a new source in Segment?"
-  - "How can I create a user profile in mParticle?"
-  - "How do I build an audience segment in Lytics?"
-  - "How can I integrate my data with Zeotap?"
-
-#### 2. Extract Information from Documentation:
-- The chatbot retrieves relevant information from the provided documentation.
-- It navigates through the content, identifies pertinent sections, and extracts necessary steps or instructions.
-
-#### 3. Handle Variations in Questions:
-- Supports varying question lengths, including extremely long or short ones.
-- Effectively identifies and handles questions unrelated to CDPs (e.g., "Which movie is releasing this week?").
+## Features
+- **User-friendly Interface**: Interacts seamlessly with users to address their queries.
+- **Automated Response**: Provides accurate answers to "How-to" questions.
+- **Dynamic Learning**: Ability to improve responses by training on new data.
+- **Customizable**: Easy to modify for different CDP-related requirements.
 
 ---
 
-### Bonus Features:
-
-#### 1. Cross-CDP Comparisons:
-- The chatbot compares features and processes between the four CDPs.
-- Example question: "How does Segment's audience creation process compare to Lytics'?"
-
-#### 2. Advanced "How-to" Questions:
-- The chatbot provides guidance on complex or platform-specific tasks, including advanced configurations, integrations, and use cases.
-
----
-
-### Evaluation Criteria:
-- **Accuracy and Completeness:** Ability to provide correct and complete responses.
-- **Code Quality and Build:** Clean, modular, and maintainable codebase.
-- **Handling Variations:** Effectively manages different phrasings, terminology, and question formats.
-- **Bonus Features:** Implementation of cross-CDP comparisons and advanced questions.
-- **User Experience:** Smooth and intuitive chatbot interactions.
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Python, Flask
+- **Database**: SQL for storing FAQs and training data
+- **Libraries**:
+  - Natural Language Toolkit (NLTK)
+  - TensorFlow/Keras (for machine learning models)
+  - Flask for API handling
 
 ---
 
-### Implementation Details:
-- **Frameworks and Tools:**
-  - Natural Language Processing (NLP) libraries or frameworks for text understanding.
-  - Alternatively, a simple document indexer for retrieving content.
-- **Deployment:** The chatbot can be implemented as a web application using any preferred technology stack.
-- **Focus Area:** The emphasis is on **software engineering** rather than model training or building.
+## Project Structure
+```
+A-Support-Agent-Chatbot-for-CDP--How-to--Questions
+|
+|-- README.md           # Project documentation
+|-- app.py              # Flask application entry point
+|-- templates/          # HTML templates
+|-- static/             # CSS, JavaScript, and other static files
+|-- models/             # Pre-trained machine learning models
+|-- data/               # FAQs and training datasets
+|-- requirements.txt    # Dependencies
+```
 
 ---
 
-### Usage:
-1. Clone this repository.
-2. Set up the environment by installing required dependencies.
-3. Launch the chatbot application locally or on a hosting platform.
-4. Interact with the chatbot to ask "how-to" questions about Segment, mParticle, Lytics, or Zeotap.
+## Setup Instructions
+
+### Prerequisites
+1. Python 3.8 or higher
+2. Flask
+3. Required Python libraries (listed in `requirements.txt`)
+
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/vinay-jalluri/A-Support-Agent-Chatbot-for-CDP--How-to--Questions.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd A-Support-Agent-Chatbot-for-CDP--How-to--Questions
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the application:
+   ```bash
+   python app.py
+   ```
+5. Open your browser and navigate to `http://localhost:5000`.
 
 ---
 
-### Future Enhancements:
-- Add support for more CDPs.
-- Enable integration with live chat platforms for real-time assistance.
-- Include multilingual support for broader accessibility.
+## Usage
+1. Open the chatbot in your browser.
+2. Enter your "How-to" question in the input field.
+3. Receive an accurate and helpful response from the chatbot.
+4. If the chatbot cannot answer, it provides an option to log the query for future improvements.
 
 ---
 
-### Acknowledgments:
-- Special thanks to the creators of Segment, mParticle, Lytics, and Zeotap for their comprehensive documentation.
+## Contribution Guidelines
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push them to your branch.
+4. Submit a pull request.
+
+---
+
+
+## Contact
+For any queries, feel free to contact the project author:
+- **Name**: Jalluri Achutha Sai Vinay
+- **GitHub Profile**: [vinay-jalluri](https://github.com/vinay-jalluri)
+
+---
+
+## Future Enhancements
+- Integrate voice-based interaction.
+- Add multi-language support.
+- Improve machine learning models for better accuracy.
+- Extend functionality to address broader CDP-related queries.
 
